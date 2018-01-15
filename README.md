@@ -23,3 +23,5 @@ import java.text.SimpleDateFormat;
       TableValue tv = (TableValue)it.next();
       keys.add(tv.getKey());
     }
+for (Iterator it = keys.iterator(); it.hasNext(); ) 
+      {
